@@ -1,0 +1,618 @@
+@import url('./images/kopubdotum.css');
+
+* {
+  margin : 0;
+  padding: 0;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, input, button {
+	font-family: 'KoPub Dotum';
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftBox {
+  width: 20%;
+  background-color: #446CB3;
+  padding: 1rem 2rem;
+  min-height: 1024px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightBox {
+  width: 80%;
+  padding: 2rem;
+  min-height: 1024px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+/* 사파리 입력 초기화 */
+input, button, textarea {
+  border-radius:0;
+  outline:none;
+  box-shadow:none;
+  -webkit-appearance: none;
+}
+input:checked[type="checkbox"] {
+  background-color: #fff;
+  -webkit-appearance: checkbox;
+}
+
+
+/********** 헤더 **********/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoBox {
+  /* padding: 0.5rem 1rem; */
+  padding: 1rem 0;
+}
+
+#logo {
+  width: 100%;
+  max-width: 10rem;
+}
+
+.menuButton {
+  display: none;
+}
+
+/********** 사이드바 **********/
+/* 사이드바 공통 */
+.categoryBox, .tagBox {
+  padding: 1rem;
+  color: white;
+}
+
+.searchBox h3, .categoryBox h3, .tagBox h3 {
+  border-bottom: 1px solid white;
+  padding: 0.5rem 0;
+}
+
+/* 검색 모듈 */
+.searchBox {
+  margin: 1rem 0;
+}
+
+.searchWrapper {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.searchInputBox {
+  width: 88%;
+  height: 2rem;
+  border: none;
+}
+
+.searchIconBox {
+  width: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+}
+
+#searchIcon {
+  height: 1rem;
+}
+
+/* 카테고리 & 태그 공통 */
+.categoryBox, .tagBox {
+  padding: 0.5rem 0;
+}
+
+.tt_category {
+  padding: 0.5rem 0;
+}
+
+.categoryBox a, .tagBox a {
+  color: white;
+}
+
+.category_list, .sub_category_list {
+  margin-left: 1rem;
+}
+
+.tagBox ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem 0;
+}
+
+.tagBox ul li {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/********** 본문 **********/
+/* 본문 공통 */
+.entryProtected, .entry, .paging {
+  padding: 3rem;
+}
+
+/* 인덱스 */
+.indexBox {
+  padding: 1.5rem 3rem;
+}
+.indexBox:first-child {
+  padding-top: 3rem;
+}
+
+.list_content {
+  border-top: 1px solid #89C4F4;
+  border-bottom: 1px solid #89C4F4;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summaryBox {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tit_post {
+  color: #446CB3;
+  font-size: 1.2rem;
+}
+
+.txt_post {
+  padding: 0.75rem 0;
+  color: black;
+  font-size: 1rem;
+}
+
+.detail_info {
+  color: black;
+  font-size: 0.9rem;
+}
+
+.detail_info a {
+  color: black;
+  margin-right: 0.5rem;
+}
+
+.thumbnailBox {
+  display: flex;
+  align-items: center;
+  width: 15%;
+  max-height: 10rem;
+  overflow: hidden;
+}
+
+.thumbnailBox img {
+  width: 100%;
+}
+
+/* 글 공통 */
+.titleSizer, .article, .tagTrail, .actionTrail, .trackback, .comment {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+/* 제목 박스 */
+.titleWrap {
+  padding: 1rem 0;
+  border-bottom: 1px solid #89C4F4;
+}
+
+.titleSizer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleSizer h2, .articleInfo, .articleAdmin{
+  margin: 0.5rem 0;
+}
+
+.titleSizer h2 a, .articleInfo a {
+  color: black;
+}
+
+.articleInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.articleCategory {
+  margin-right: 1rem;
+}
+
+.articleAdmin {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.articleAdmin a, .articleAdmin span{
+  font-size: 0.8rem;
+  margin: 0 0.5rem;
+}
+
+.articleAdmin a {
+  color: white;
+  background-color: #22A7F0;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+
+.articleAdmin a:first-child {
+  margin: 0;
+}
+
+/* 글 */
+.article {
+  padding: 1rem 0;
+}
+
+/* 태그 & 액션 트레일*/
+.tagTrail, .actionTrail, .trackback, .comment {
+  padding: 0.5rem 0;
+}
+
+.tagTrail a, .actionTrail a {
+  font-size: 0.8rem;
+  color: black;
+}
+
+.tagTrail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  min-height: 3rem;
+}
+
+.tagText {
+  color: white;
+  font-size: 0.8rem;
+  background-color: #22A7F0;
+  border-radius: 5px;
+  padding: 0.3rem;
+  margin-right: 0.5rem;
+}
+
+.actionTrail .cnt {
+  color: #22A7F0;
+  font-weight: 600;
+}
+
+/* 트랙백 */
+
+/* 댓글 리스트 */
+.commentBox {
+  /* padding: 0.5rem 0; */
+  /* margin: 0.5rem 0; */
+  font-size: 0.9rem;
+  /* border-top: 1px solid #89C4F4; */
+  border-bottom: 1px solid #89C4F4;
+}
+
+.originalComment, .commentReply {
+  padding: 0.5rem 1rem;
+}
+
+.commentReply {
+  border-top: 1px solid #D2D7D3;
+}
+
+.commentReply {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.replyArranger {
+  width: 88%;
+}
+
+.rp_secret, .rp_admin, .rp_general {
+}
+
+.commentHead, .commentArticle {
+  padding: 0.5rem 0;
+}
+
+.commentHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.commentInfo, .commentDate {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.commentInfo img {
+  width: 1.5rem;
+}
+
+.commentorName, .commentDate, .commentDate a {
+  margin: 0 0.5rem;
+}
+
+.commentorName a {
+  color: black;
+}
+
+.commentDate a {
+  color: #F03434;
+  font-size: 0.9rem;
+}
+
+.commentControl a {
+  color: #446CB3;
+}
+
+/* 댓글 작성*/
+.comment, .commentWrie, .commentList, .comment h3 {
+  padding: 0.5rem 0;
+}
+
+.commentorInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#commentorName, #commentorPassword, #commentorHomepage {
+  width: 8rem;
+  height: 2rem;
+  margin: 0 1rem;
+  border: 1px solid rgb(169,169,169);
+}
+
+#commentorName, #commentorHomepage {
+  margin: 0;
+}
+
+#commentorHomepage {
+  width: 16rem;
+}
+
+.commentWrite textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  border: 1px solid rgb(169,169,169);
+}
+
+.writeBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#writeButton {
+  background-color: #22A7F0;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+}
+
+/* 페이징 */
+.paging {
+  display: flex;
+  justify-content: center;
+}
+
+.paging a {
+  color: #22A7F0;
+}
+
+.pageNum {
+  color: black;
+  font-size: 0.9rem;
+  margin: 0 0.3rem;
+}
+
+.pageNum .selected {
+  color: white;
+  background-color: #22A7F0;
+  border-radius: 5px;
+  padding: 0.2rem 0.4rem;
+}
+
+/********** 푸터 **********/
+footer {
+  border-top: 1px solid #BDC3C7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  min-height: 3rem;
+  margin-top: 2rem;
+}
+
+.copyright a {
+  color: black;
+}
+
+@media screen and (max-width:768px) {
+  .page {
+    flex-direction: column;
+  }
+
+  .leftBox, .rightBox {
+    width: 100%;
+    min-height: 0;
+    padding: 0;
+  }
+
+  /* .leftBox {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  } */
+
+  header {
+    width: 100%;
+    min-height: 5rem;
+  }
+
+  .logoBox {
+    padding: 0.5rem 1rem;
+  }
+  aside {
+    display: none;
+  }
+
+  .searchBox, .categoryBox {
+    padding: 0.5rem 1rem;
+    margin: 0;
+  }
+
+  .categoryBox h3, .tagBox {
+    display: none;
+  }
+
+  .menuButton {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+
+  .menuButton img {
+    width: 100%;
+  }
+
+
+  .entry {
+    padding: 2rem;
+  }
+
+  .titleWrap {
+    padding: 0;
+  }
+
+  .indexBox {
+    padding: 1rem 2rem;
+  }
+
+  .thumbnailBox {
+    width: 23%;
+  }
+
+  .copyright {
+    margin: 0;
+    min-height: 5rem;
+  }
+
+}
+
+@media screen and (max-width:425px) {
+  iframe {
+    width: 100%;
+  }
+
+  .indexBox {
+    padding: 1rem;
+  }
+
+  .indexBox:first-child {
+    padding-top: 2rem;
+  }
+
+  .list_content {
+    flex-direction: column-reverse;
+  }
+
+  .summaryBox, .thumbnailBox {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  .txt_post {
+    overflow: hidden;
+    max-height: 5rem;
+  }
+
+  .detail_info {
+    margin-top: 0.5rem;
+  }
+
+  .entry {
+    padding: 1rem;
+  }
+  .articleAdmin {
+    display: none;
+  }
+
+  .commentorInfo {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .infoBox {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .infoBox p {
+    width: 49%;
+  }
+
+  .infoBox p:last-child {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  #commentorName, #commentorPassword {
+    width: 100%;
+    margin: 0;
+  }
+
+  #commentorHomepage {
+    width: 100%;
+  }
+
+  .commentControl {
+    margin-top: 0.5rem;
+  }
+}
