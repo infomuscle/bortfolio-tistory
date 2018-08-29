@@ -275,6 +275,11 @@ header {
   padding: 1rem 0;
 }
 
+.colorscripter-code-table {
+  width: 95%;
+  margin: 0 auto;
+}
+
 /* 태그 & 액션 트레일*/
 .tagTrail, .actionTrail, .trackback, .comment {
   padding: 0.5rem 0;
