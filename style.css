@@ -277,6 +277,9 @@ header {
   padding: 1rem 0;
 }
 
+.colorscripter-code {
+  background-color: #272727;
+}
 .colorscripter-code-table {
   width: 95%;
   margin: 0 auto;
