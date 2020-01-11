@@ -364,7 +364,7 @@ hr {
 }
 
 /* Components */
-.social-link i {
+.social-link a {
 	display: inline-block;
 	width: 18px;
 	height: 18px;
@@ -375,19 +375,19 @@ hr {
 	/*background-repeat: no-repeat;*/
 	vertical-align: top;
 }
-.social-link i:hover {
+.social-link a:hover {
 	background-position-y: -68px;
 	color: #333333;
 }
-.social-link .facebook {
-	background-position: -50px -50px;
-}
-.social-link .instagram {
-	background-position: -150px -50px;
-}
-.social-link .github {
-	background-position: -150px -50px;
-}
+/*.social-link .facebook {*/
+/*	background-position: -50px -50px;*/
+/*}*/
+/*.social-link .instagram {*/
+/*	background-position: -150px -50px;*/
+/*}*/
+/*.social-link .github {*/
+/*	background-position: -150px -50px;*/
+/*}*/
 
 .btn, a.btn {
 	display: inline-block;
