@@ -369,25 +369,12 @@ hr {
 	width: 18px;
 	height: 18px;
 	margin-right: 5px;
-	text-indent: -999em;
-	color: #666666;
-	/*background-image: url(./images/ico_package.png);*/
-	/*background-repeat: no-repeat;*/
+	color: #777777;
 	vertical-align: top;
 }
 .social-link a:hover {
-	background-position-y: -68px;
 	color: #333333;
 }
-/*.social-link .facebook {*/
-/*	background-position: -50px -50px;*/
-/*}*/
-/*.social-link .instagram {*/
-/*	background-position: -150px -50px;*/
-/*}*/
-/*.social-link .github {*/
-/*	background-position: -150px -50px;*/
-/*}*/
 
 .btn, a.btn {
 	display: inline-block;
@@ -1756,7 +1743,6 @@ hr {
 .color-chocolate .pagination a {
 	border-color: #e7e2e1;
 }
-.color-chocolate .social-link a,
 .color-chocolate #header .search button,
 .color-chocolate #header .search:before,
 .color-chocolate .cover-thumbnail-list ul li .thum:before,
@@ -1778,7 +1764,6 @@ hr {
 @media  only screen and (-webkit-min-device-pixel-ratio:1.5) {
 	#header .search button,
 	#header .search:before,
-	.social-link a,
 	.cover-slider .prev,
 	.cover-slider .next,
 	.cover-gallery ul li a:before,
@@ -1789,7 +1774,6 @@ hr {
 		background-image: url(./images/ico_package_2x.png);
 		background-size: 200px auto;
 	}
-	.color-chocolate .social-link a,
 	.color-chocolate #header .search button,
 	.color-chocolate .cover-gallery ul li a:before,
 	.color-chocolate .post-header .list-type button {
