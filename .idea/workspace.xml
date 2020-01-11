@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9318ca04-48b2-4d1f-ac27-3362657e8164" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.html" beforeDir="false" afterPath="$PROJECT_DIR$/skin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/index.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,9 @@
       <workItem from="1578740957602" duration="39000" />
       <workItem from="1578741003831" duration="15000" />
       <workItem from="1578741031223" duration="3000" />
-      <workItem from="1578741046174" duration="1932000" />
+      <workItem from="1578741046174" duration="2231000" />
+      <workItem from="1578756584089" duration="9000" />
+      <workItem from="1578756597194" duration="404000" />
     </task>
     <task id="LOCAL-00001" summary="Liscence Customizing">
       <created>1578731350727</created>
@@ -106,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578742066555</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="네이버 애널리틱스 스크립트 추가">
+      <created>1578743367638</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578743367638</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,17 +126,18 @@
     <MESSAGE value="init Poster" />
     <MESSAGE value="구글 애널리틱스 스크립트 추가" />
     <MESSAGE value="구글 애드센스 스크립트 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="구글 애드센스 스크립트 추가" />
+    <MESSAGE value="네이버 애널리틱스 스크립트 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="네이버 애널리틱스 스크립트 추가" />
   </component>
   <component name="WindowStateProjectService">
     <state x="528" y="213" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578740975011">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
     <state x="528" y="213" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1680.959@0.23.1680.959" timestamp="1578740975011" />
-    <state x="418" y="23" width="844" height="959" key="CommitChangelistDialog2" timestamp="1578742066445">
+    <state x="418" y="23" width="844" height="959" key="CommitChangelistDialog2" timestamp="1578743367536">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state x="418" y="23" width="844" height="959" key="CommitChangelistDialog2/0.23.1680.959@0.23.1680.959" timestamp="1578742066445" />
+    <state x="418" y="23" width="844" height="959" key="CommitChangelistDialog2/0.23.1680.959@0.23.1680.959" timestamp="1578743367536" />
     <state x="440" y="241" key="Vcs.Push.Dialog.v2" timestamp="1578731367230">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
