@@ -121,28 +121,12 @@
 			<description><![CDATA[ 푸터 이미지를 변경합니다. ]]></description>
 		</variable>
 		<variable>
-			<name>sns-pinterest</name>
-			<label><![CDATA[ Pinterest URL ]]></label>
-			<type>STRING</type>
-			<option />
-			<default></default>
-			<description><![CDATA[ Pinterest URL를 입력해주세요. ]]></description>
-		</variable>
-		<variable>
 			<name>sns-facebook</name>
 			<label><![CDATA[ Facebook URL ]]></label>
 			<type>STRING</type>
 			<option />
 			<default></default>
 			<description><![CDATA[ Facebook URL를 입력해주세요. ]]></description>
-		</variable>
-		<variable>
-			<name>sns-twitter</name>
-			<label><![CDATA[ Twitter URL ]]></label>
-			<type>STRING</type>
-			<option />
-			<default></default>
-			<description><![CDATA[ Twitter URL를 입력해주세요. ]]></description>
 		</variable>
 		<variable>
 			<name>sns-instagram</name>

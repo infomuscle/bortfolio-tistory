@@ -377,9 +377,6 @@ hr {
 .social-link a:hover {
 	background-position-y: -68px;
 }
-.social-link .pinterest {
-	background-position: 0 -50px;
-}
 .social-link .facebook {
 	background-position: -50px -50px;
 }
