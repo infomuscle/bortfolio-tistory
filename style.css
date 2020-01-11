@@ -1897,7 +1897,7 @@ hr {
 	.cover-thumbnail-list ul li,
 	.related-articles ul li {
 		width: 48.591549295774648%;
-    padding-left: 2.816901408450704%;
+		padding-left: 2.816901408450704%;
 	}
 	.cover-thumbnail-list ul li:nth-child(odd),
 	.related-articles ul li:nth-child(odd) {
@@ -1952,7 +1952,7 @@ hr {
 		padding: 30px 18px 80px;
 	}
 	.cover-list h2{
-  margin: 30px 0 0 0;		
+		margin: 30px 0 0 0;
 	}
 	.cover-list ul li a {
 		min-height: 98px;
