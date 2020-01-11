@@ -152,5 +152,13 @@
 			<default></default>
 			<description><![CDATA[ Instagram URL를 입력해주세요. ]]></description>
 		</variable>
+		<variable>
+			<name>sns-github</name>
+			<label><![CDATA[ Github URL ]]></label>
+			<type>STRING</type>
+			<option />
+			<default></default>
+			<description><![CDATA[ Github URL를 입력해주세요. ]]></description>
+		</variable>
 	</variables>
 </skin>
