@@ -364,18 +364,20 @@ hr {
 }
 
 /* Components */
-.social-link a {
+.social-link i {
 	display: inline-block;
 	width: 18px;
 	height: 18px;
 	margin-right: 5px;
 	text-indent: -999em;
-	background-image: url(./images/ico_package.png);
-	background-repeat: no-repeat;
+	color: #666666;
+	/*background-image: url(./images/ico_package.png);*/
+	/*background-repeat: no-repeat;*/
 	vertical-align: top;
 }
-.social-link a:hover {
+.social-link i:hover {
 	background-position-y: -68px;
+	color: #333333;
 }
 .social-link .facebook {
 	background-position: -50px -50px;
