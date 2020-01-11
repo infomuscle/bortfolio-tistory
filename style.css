@@ -389,6 +389,9 @@ hr {
 .social-link .instagram {
 	background-position: -150px -50px;
 }
+.social-link .github {
+	background-position: -150px -50px;
+}
 
 .btn, a.btn {
 	display: inline-block;
