@@ -3677,7 +3677,8 @@ html {
 }
 
 .article-view ul {
-    margin-top: 18px;
+    /*margin-top: 18px;*/
+    margin-top: 0px;
 }
 
 .article-view ul li {
