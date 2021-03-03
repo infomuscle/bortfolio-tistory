@@ -3730,7 +3730,8 @@ html {
 
 .article-view pre {
     padding: 20px;
-    background: rgba(0, 0, 0, 0.05);
+    /*background: rgba(0, 0, 0, 0.05);*/
+    background: #f0f0f0;
     font-size: 16px;
     color: rgba(34, 85, 51, 0.87);
     white-space: pre-wrap;
