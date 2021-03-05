@@ -3713,6 +3713,7 @@ html {
 .article-view table {
     border: 1px solid #dadce0;
     border-collapse: collapse;
+    margin: 18px 0px;
 }
 
 .article-view table thead tr {
