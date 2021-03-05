@@ -3692,11 +3692,13 @@ html {
 }
 
 .article-view ol {
-    margin-bottom: 32px;
+    /*margin-bottom: 32px;*/
+    margin-bottom: 0px;
 }
 
 .article-view ol li {
-    margin-bottom: 6px;
+    /*margin-bottom: 6px;*/
+    margin-bottom: 0px;
     font-size: 16px;
     line-height: 1.75;
     color: rgba(0, 0, 0, 0.87);
