@@ -68,9 +68,10 @@ samp {
 
 code:not(pre code) {
     background: #f0f0f0;
+    color: #ff5722;
     padding: 3px 5px;
-    font-size: 0.8em;
-    border-radius: 2px
+    /*font-size: 0.8em;*/
+    border-radius: 3px;
 }
 
 small {
