@@ -3652,11 +3652,15 @@ html {
 .article-view h1 {
     font-size: 32px;
     line-height: 1.33;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: .3em;
 }
 
 .article-view h2 {
     font-size: 24px;
     line-height: 1.38;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: .3em;
 }
 
 .article-view h3 {
